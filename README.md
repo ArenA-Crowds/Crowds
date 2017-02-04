@@ -7,11 +7,62 @@ This repository contains the Jupyter notebook scripts that correspond to the dat
 Because of the law for privacy preservation we are not allowed to publicly display the data, but provide a description of the data format [here](https://github.com/sonjageorgievska/Crowds/blob/master/density-estimation-version-2.md). An example of one line of the "fitted" input data fo ArenaDataAnalysis.ipynb and density_estimation.ipynb :
 
 ```json
-{"measurementTimestamp":1436220156106,"value":{"sourceMac":"2d1ff804-c499-4163-b90f-003df1e4ec65","regionsNodesIds":[],"averagecoordinate":{"avg":{"coordinates":[2.47162,-13.851751,0.0],"type":"Point"},"error":{"coordinates":[8.52464,15.449013,1000.0],"type":"Point"}},"trackeeHistory":{"nMeasurements":8,"errState":{"sigmaY":15.449013,"sigmaX":8.52464,"sigmaP0":1.217258},"seqNr":3654,"chi2":29.534072,"fitStatus":"FITTED","state":{"y":-13.851751,"x":2.47162,"p0":-51.537968},"localMac":0,"nOutliers":5,"type":2,"probChi2":1.8E-5,"chi2PerDof":5.906814,"subType":0,"retryID":0}},"processingTimestamp":1436220164741}
+{
+    "measurementTimestamp": 1436025068309,
+    "value": {
+        "sourceMac": "6cab229a-e15d-48b7-ab1e-5ddca3d7e283",
+        "regionsNodesIds": [],
+        "averagecoordinate": {
+            "avg": {
+                "coordinates": [253.417258, -224.352813, 0.0],
+                "type": "Point"
+            },
+            "error": {
+                "coordinates": [645.814525, 342.331268, 1000.0],
+                "type": "Point"
+            }
+        },
+        "trackeeHistory": {
+            "nMeasurements": 4,
+            "errState": {
+                "sigmaY": 342.331268,
+                "sigmaX": 645.814525,
+                "sigmaP0": 23.142437
+            },
+            "seqNr": 527,
+            "chi2": 0.543771,
+            "fitStatus": "FITTED",
+            "state": {
+                "y": -224.352813,
+                "x": 253.417258,
+                "p0": -39.64037
+            },
+            "localMac": 0,
+            "nOutliers": 0,
+            "type": 0,
+            "probChi2": 0.460874,
+            "chi2PerDof": 0.543771,
+            "subType": 4,
+            "retryID": 0
+        }
+    },
+    "processingTimestamp": 1436025078040
 ```
 
 Example of on line of the raw input data for ArenaRawDataAnalysis.ipynb:
 ```json
-{"measurementTimestamp":1436220095136,"value":{"typeNr":0,"seqNr":772,"droneId":"117","sourceMac":"d41181a2-d8a0-45d3-a145-58ef960d778f","localMac":0,"signal":-86,"subTypeNr":4,"retryFlag":0},"processingTimestamp":1436220098267
+{
+    "measurementTimestamp": 1436220095136,
+    "value": {
+        "typeNr": 0,
+        "seqNr": 772,
+        "droneId": "117",
+        "sourceMac": "d41181a2-d8a0-45d3-a145-58ef960d778f",
+        "localMac": 0,
+        "signal": -86,
+        "subTypeNr": 4,
+        "retryFlag": 0
+    },
+    "processingTimestamp": 1436220098267
 ```
 We also provide most of the output generated from the original dataset in the .md files. 

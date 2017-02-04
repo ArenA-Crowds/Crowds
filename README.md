@@ -4,7 +4,7 @@
 
 This repository contains the Jupyter notebook scripts that correspond to the data analysis and the methodology described in this draft [paper](https://github.com/sonjageorgievska/Arena/blob/master/PaperOnSmoothing/draft-31052016.pdf).
 
-Because of the law for privacy preservation we are not allowed to publicly display the data, but provide a description of the data format [here](https://github.com/sonjageorgievska/Crowds/blob/master/density-estimation-version-2.md). An example of one line of the "fitted" input data fo ArenaDataAnalysis.ipynb and density_estimation.ipynb :
+Because of the law for privacy preservation we are not allowed to publicly display the data, but provide a description of the data format [here](https://github.com/sonjageorgievska/Crowds/blob/master/density-estimation-version-2.md). An example of one line of the "fitted" input data for ArenaDataAnalysis.ipynb and density_estimation.ipynb :
 
 ```json
 {
@@ -49,7 +49,7 @@ Because of the law for privacy preservation we are not allowed to publicly displ
     "processingTimestamp": 1436025078040
 ```
 
-Example of on line of the raw input data for ArenaRawDataAnalysis.ipynb:
+Example of one line of the raw input data for ArenaRawDataAnalysis.ipynb:
 ```json
 {
     "measurementTimestamp": 1436220095136,

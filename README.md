@@ -47,6 +47,7 @@ Because of the law for privacy preservation we are not allowed to publicly displ
         }
     },
     "processingTimestamp": 1436025078040
+    }
 ```
 
 Example of one line of the raw input data for ArenaRawDataAnalysis.ipynb:
@@ -64,5 +65,6 @@ Example of one line of the raw input data for ArenaRawDataAnalysis.ipynb:
         "retryFlag": 0
     },
     "processingTimestamp": 1436220098267
+    }
 ```
 We also provide most of the output generated from the original dataset in the .md files. 

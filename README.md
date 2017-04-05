@@ -2,9 +2,10 @@
 
 # Crowds
 
-This repository contains the Jupyter notebook scripts that correspond to the data analysis and the methodology described in this draft [paper](https://github.com/sonjageorgievska/Arena/blob/master/PaperOnSmoothing/draft-31052016.pdf).
+This repository contains the Jupyter notebook scripts together with output that correspond to the data analysis and the methodology for estimating crowd density based on WiFi positioning.
 
-Because of the law for privacy preservation we are not allowed to publicly display the data, but provide a description of the data format [here](https://github.com/sonjageorgievska/Crowds/blob/master/density-estimation-version-2.md). An example of one line of the "fitted" input data for ArenaDataAnalysis.ipynb and density_estimation.ipynb :
+Because of the law for privacy protection we are not allowed to publicly display the data (we can only display aggregated results). 
+An example of one line of the "fitted" input data for ArenaDataAnalysis.ipynb and density_estimation.ipynb :
 
 ```json
 {
@@ -67,4 +68,4 @@ Example of one line of the raw input data for ArenaRawDataAnalysis.ipynb:
     "processingTimestamp": 1436220098267
     }
 ```
-We also provide most of the output generated from the original dataset in the .md files. 
+

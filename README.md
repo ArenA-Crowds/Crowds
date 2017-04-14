@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.268639.svg)](https://doi.org/10.5281/zenodo.268639)
+[![DOI](https://zenodo.org/badge/80648932.svg)](https://zenodo.org/badge/latestdoi/80648932)
 
 # Crowds
 
